@@ -1,0 +1,10 @@
+PODS:
+  - OpenCV (2.4.6)
+
+DEPENDENCIES:
+  - OpenCV (~> 2.4.6)
+
+SPEC CHECKSUMS:
+  OpenCV: 350eef8f4af91c517d3ba84dc6ac739269f9c6e2
+
+COCOAPODS: 0.27.1

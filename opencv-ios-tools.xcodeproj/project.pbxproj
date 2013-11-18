@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4926BA7E18385E8100808374 /* ImageProcessing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4926BA7D18385E8100808374 /* ImageProcessing.mm */; };
+		4926BA7F18385E8100808374 /* ImageProcessing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4926BA7D18385E8100808374 /* ImageProcessing.mm */; };
+		4926BA8218393B8700808374 /* Classifier.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4926BA8118393B8700808374 /* Classifier.mm */; };
+		4926BA8318393B8700808374 /* Classifier.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4926BA8118393B8700808374 /* Classifier.mm */; };
+		4926BA8618394A9600808374 /* FaceDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4926BA8518394A9600808374 /* FaceDetector.mm */; };
+		4926BA8718394A9600808374 /* FaceDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4926BA8518394A9600808374 /* FaceDetector.mm */; };
+		4926BA8B183985C900808374 /* OpenCV+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4926BA8A183985C900808374 /* OpenCV+Utils.m */; };
+		4926BA8C183985C900808374 /* OpenCV+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4926BA8A183985C900808374 /* OpenCV+Utils.m */; };
 		4928078B1830C25500EE0BE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4928078A1830C25500EE0BE6 /* Foundation.framework */; };
 		4928078D1830C25500EE0BE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4928078C1830C25500EE0BE6 /* CoreGraphics.framework */; };
 		4928078F1830C25500EE0BE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4928078E1830C25500EE0BE6 /* UIKit.framework */; };
@@ -19,6 +27,56 @@
 		492807A61830C25500EE0BE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4928078E1830C25500EE0BE6 /* UIKit.framework */; };
 		492807AE1830C25500EE0BE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 492807AC1830C25500EE0BE6 /* InfoPlist.strings */; };
 		492807B01830C25500EE0BE6 /* opencv_ios_toolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 492807AF1830C25500EE0BE6 /* opencv_ios_toolsTests.m */; };
+		494DE54C1839928E0086DF15 /* OCVRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494DE54B1839928E0086DF15 /* OCVRootViewController.xib */; };
+		494DE54D1839928E0086DF15 /* OCVRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494DE54B1839928E0086DF15 /* OCVRootViewController.xib */; };
+		49D732FD1830C35A0037EE1C /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D732FC1830C35A0037EE1C /* libc++.dylib */; };
+		49D733011830C3BF0037EE1C /* OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49D733001830C3BF0037EE1C /* OpenCV.mm */; };
+		49D733021830C3BF0037EE1C /* OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49D733001830C3BF0037EE1C /* OpenCV.mm */; };
+		49D733051830C4250037EE1C /* OCVRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D733041830C4250037EE1C /* OCVRootViewController.m */; };
+		49D733061830C4250037EE1C /* OCVRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D733041830C4250037EE1C /* OCVRootViewController.m */; };
+		49D7330A1830C5830037EE1C /* ObjectDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49D733091830C5830037EE1C /* ObjectDetector.mm */; };
+		49D7330B1830C5830037EE1C /* ObjectDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49D733091830C5830037EE1C /* ObjectDetector.mm */; };
+		49D7330E1830C8A70037EE1C /* lena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49D7330D1830C8A70037EE1C /* lena.jpg */; };
+		49D7330F1830C8A70037EE1C /* lena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49D7330D1830C8A70037EE1C /* lena.jpg */; };
+		49D733241830C9C40037EE1C /* haarcascade_eye.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733111830C9C40037EE1C /* haarcascade_eye.xml */; };
+		49D733251830C9C40037EE1C /* haarcascade_eye.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733111830C9C40037EE1C /* haarcascade_eye.xml */; };
+		49D733261830C9C40037EE1C /* haarcascade_eye_tree_eyeglasses.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733121830C9C40037EE1C /* haarcascade_eye_tree_eyeglasses.xml */; };
+		49D733271830C9C40037EE1C /* haarcascade_eye_tree_eyeglasses.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733121830C9C40037EE1C /* haarcascade_eye_tree_eyeglasses.xml */; };
+		49D733281830C9C40037EE1C /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733131830C9C40037EE1C /* haarcascade_frontalface_alt.xml */; };
+		49D733291830C9C40037EE1C /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733131830C9C40037EE1C /* haarcascade_frontalface_alt.xml */; };
+		49D7332A1830C9C40037EE1C /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733141830C9C40037EE1C /* haarcascade_frontalface_alt2.xml */; };
+		49D7332B1830C9C40037EE1C /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733141830C9C40037EE1C /* haarcascade_frontalface_alt2.xml */; };
+		49D7332C1830C9C40037EE1C /* haarcascade_frontalface_alt_tree.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733151830C9C40037EE1C /* haarcascade_frontalface_alt_tree.xml */; };
+		49D7332D1830C9C40037EE1C /* haarcascade_frontalface_alt_tree.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733151830C9C40037EE1C /* haarcascade_frontalface_alt_tree.xml */; };
+		49D7332E1830C9C40037EE1C /* haarcascade_frontalface_default.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733161830C9C40037EE1C /* haarcascade_frontalface_default.xml */; };
+		49D7332F1830C9C40037EE1C /* haarcascade_frontalface_default.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733161830C9C40037EE1C /* haarcascade_frontalface_default.xml */; };
+		49D733301830C9C40037EE1C /* haarcascade_fullbody.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733171830C9C40037EE1C /* haarcascade_fullbody.xml */; };
+		49D733311830C9C40037EE1C /* haarcascade_fullbody.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733171830C9C40037EE1C /* haarcascade_fullbody.xml */; };
+		49D733321830C9C40037EE1C /* haarcascade_lefteye_2splits.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733181830C9C40037EE1C /* haarcascade_lefteye_2splits.xml */; };
+		49D733331830C9C40037EE1C /* haarcascade_lefteye_2splits.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733181830C9C40037EE1C /* haarcascade_lefteye_2splits.xml */; };
+		49D733341830C9C40037EE1C /* haarcascade_lowerbody.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733191830C9C40037EE1C /* haarcascade_lowerbody.xml */; };
+		49D733351830C9C40037EE1C /* haarcascade_lowerbody.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733191830C9C40037EE1C /* haarcascade_lowerbody.xml */; };
+		49D733361830C9C40037EE1C /* haarcascade_mcs_eyepair_big.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D7331A1830C9C40037EE1C /* haarcascade_mcs_eyepair_big.xml */; };
+		49D733371830C9C40037EE1C /* haarcascade_mcs_eyepair_big.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D7331A1830C9C40037EE1C /* haarcascade_mcs_eyepair_big.xml */; };
+		49D733381830C9C40037EE1C /* haarcascade_mcs_eyepair_small.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D7331B1830C9C40037EE1C /* haarcascade_mcs_eyepair_small.xml */; };
+		49D733391830C9C40037EE1C /* haarcascade_mcs_eyepair_small.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D7331B1830C9C40037EE1C /* haarcascade_mcs_eyepair_small.xml */; };
+		49D7333A1830C9C40037EE1C /* haarcascade_mcs_lefteye.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D7331C1830C9C40037EE1C /* haarcascade_mcs_lefteye.xml */; };
+		49D7333B1830C9C40037EE1C /* haarcascade_mcs_lefteye.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D7331C1830C9C40037EE1C /* haarcascade_mcs_lefteye.xml */; };
+		49D7333C1830C9C40037EE1C /* haarcascade_mcs_mouth.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D7331D1830C9C40037EE1C /* haarcascade_mcs_mouth.xml */; };
+		49D7333D1830C9C40037EE1C /* haarcascade_mcs_mouth.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D7331D1830C9C40037EE1C /* haarcascade_mcs_mouth.xml */; };
+		49D7333E1830C9C40037EE1C /* haarcascade_mcs_nose.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D7331E1830C9C40037EE1C /* haarcascade_mcs_nose.xml */; };
+		49D7333F1830C9C40037EE1C /* haarcascade_mcs_nose.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D7331E1830C9C40037EE1C /* haarcascade_mcs_nose.xml */; };
+		49D733401830C9C40037EE1C /* haarcascade_mcs_righteye.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D7331F1830C9C40037EE1C /* haarcascade_mcs_righteye.xml */; };
+		49D733411830C9C40037EE1C /* haarcascade_mcs_righteye.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D7331F1830C9C40037EE1C /* haarcascade_mcs_righteye.xml */; };
+		49D733421830C9C40037EE1C /* haarcascade_mcs_upperbody.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733201830C9C40037EE1C /* haarcascade_mcs_upperbody.xml */; };
+		49D733431830C9C40037EE1C /* haarcascade_mcs_upperbody.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733201830C9C40037EE1C /* haarcascade_mcs_upperbody.xml */; };
+		49D733441830C9C40037EE1C /* haarcascade_profileface.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733211830C9C40037EE1C /* haarcascade_profileface.xml */; };
+		49D733451830C9C40037EE1C /* haarcascade_profileface.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733211830C9C40037EE1C /* haarcascade_profileface.xml */; };
+		49D733461830C9C40037EE1C /* haarcascade_righteye_2splits.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733221830C9C40037EE1C /* haarcascade_righteye_2splits.xml */; };
+		49D733471830C9C40037EE1C /* haarcascade_righteye_2splits.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733221830C9C40037EE1C /* haarcascade_righteye_2splits.xml */; };
+		49D733481830C9C40037EE1C /* haarcascade_upperbody.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733231830C9C40037EE1C /* haarcascade_upperbody.xml */; };
+		49D733491830C9C40037EE1C /* haarcascade_upperbody.xml in Resources */ = {isa = PBXBuildFile; fileRef = 49D733231830C9C40037EE1C /* haarcascade_upperbody.xml */; };
+		CA704C89EA6547199109BB60 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E07F916EB39471A9D26364C /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +90,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E07F916EB39471A9D26364C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4926BA7C18385E8100808374 /* ImageProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessing.h; sourceTree = "<group>"; };
+		4926BA7D18385E8100808374 /* ImageProcessing.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageProcessing.mm; sourceTree = "<group>"; };
+		4926BA8018393B8700808374 /* Classifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Classifier.h; sourceTree = "<group>"; };
+		4926BA8118393B8700808374 /* Classifier.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Classifier.mm; sourceTree = "<group>"; };
+		4926BA8418394A9600808374 /* FaceDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDetector.h; sourceTree = "<group>"; };
+		4926BA8518394A9600808374 /* FaceDetector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FaceDetector.mm; sourceTree = "<group>"; };
+		4926BA89183985C900808374 /* OpenCV+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenCV+Utils.h"; sourceTree = "<group>"; };
+		4926BA8A183985C900808374 /* OpenCV+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenCV+Utils.m"; sourceTree = "<group>"; };
 		492807871830C25500EE0BE6 /* opencv-ios-tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "opencv-ios-tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4928078A1830C25500EE0BE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4928078C1830C25500EE0BE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +115,35 @@
 		492807AB1830C25500EE0BE6 /* opencv-ios-toolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "opencv-ios-toolsTests-Info.plist"; sourceTree = "<group>"; };
 		492807AD1830C25500EE0BE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		492807AF1830C25500EE0BE6 /* opencv_ios_toolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = opencv_ios_toolsTests.m; sourceTree = "<group>"; };
+		494DE54B1839928E0086DF15 /* OCVRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OCVRootViewController.xib; sourceTree = "<group>"; };
+		49D732FC1830C35A0037EE1C /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		49D732FF1830C3BF0037EE1C /* OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCV.h; sourceTree = "<group>"; };
+		49D733001830C3BF0037EE1C /* OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCV.mm; sourceTree = "<group>"; };
+		49D733031830C4250037EE1C /* OCVRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCVRootViewController.h; sourceTree = "<group>"; };
+		49D733041830C4250037EE1C /* OCVRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCVRootViewController.m; sourceTree = "<group>"; };
+		49D733081830C5830037EE1C /* ObjectDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectDetector.h; sourceTree = "<group>"; };
+		49D733091830C5830037EE1C /* ObjectDetector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjectDetector.mm; sourceTree = "<group>"; };
+		49D7330D1830C8A70037EE1C /* lena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lena.jpg; sourceTree = "<group>"; };
+		49D733111830C9C40037EE1C /* haarcascade_eye.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_eye.xml; sourceTree = "<group>"; };
+		49D733121830C9C40037EE1C /* haarcascade_eye_tree_eyeglasses.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_eye_tree_eyeglasses.xml; sourceTree = "<group>"; };
+		49D733131830C9C40037EE1C /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
+		49D733141830C9C40037EE1C /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
+		49D733151830C9C40037EE1C /* haarcascade_frontalface_alt_tree.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt_tree.xml; sourceTree = "<group>"; };
+		49D733161830C9C40037EE1C /* haarcascade_frontalface_default.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_default.xml; sourceTree = "<group>"; };
+		49D733171830C9C40037EE1C /* haarcascade_fullbody.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_fullbody.xml; sourceTree = "<group>"; };
+		49D733181830C9C40037EE1C /* haarcascade_lefteye_2splits.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_lefteye_2splits.xml; sourceTree = "<group>"; };
+		49D733191830C9C40037EE1C /* haarcascade_lowerbody.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_lowerbody.xml; sourceTree = "<group>"; };
+		49D7331A1830C9C40037EE1C /* haarcascade_mcs_eyepair_big.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_mcs_eyepair_big.xml; sourceTree = "<group>"; };
+		49D7331B1830C9C40037EE1C /* haarcascade_mcs_eyepair_small.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_mcs_eyepair_small.xml; sourceTree = "<group>"; };
+		49D7331C1830C9C40037EE1C /* haarcascade_mcs_lefteye.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_mcs_lefteye.xml; sourceTree = "<group>"; };
+		49D7331D1830C9C40037EE1C /* haarcascade_mcs_mouth.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_mcs_mouth.xml; sourceTree = "<group>"; };
+		49D7331E1830C9C40037EE1C /* haarcascade_mcs_nose.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_mcs_nose.xml; sourceTree = "<group>"; };
+		49D7331F1830C9C40037EE1C /* haarcascade_mcs_righteye.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_mcs_righteye.xml; sourceTree = "<group>"; };
+		49D733201830C9C40037EE1C /* haarcascade_mcs_upperbody.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_mcs_upperbody.xml; sourceTree = "<group>"; };
+		49D733211830C9C40037EE1C /* haarcascade_profileface.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_profileface.xml; sourceTree = "<group>"; };
+		49D733221830C9C40037EE1C /* haarcascade_righteye_2splits.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_righteye_2splits.xml; sourceTree = "<group>"; };
+		49D733231830C9C40037EE1C /* haarcascade_upperbody.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_upperbody.xml; sourceTree = "<group>"; };
+		4B25F82881E24B058237C41D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +151,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D732FD1830C35A0037EE1C /* libc++.dylib in Frameworks */,
 				4928078D1830C25500EE0BE6 /* CoreGraphics.framework in Frameworks */,
 				4928078F1830C25500EE0BE6 /* UIKit.framework in Frameworks */,
 				4928078B1830C25500EE0BE6 /* Foundation.framework in Frameworks */,
+				CA704C89EA6547199109BB60 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +172,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4926BA7B18385E5D00808374 /* image-processing */ = {
+			isa = PBXGroup;
+			children = (
+				4926BA7C18385E8100808374 /* ImageProcessing.h */,
+				4926BA7D18385E8100808374 /* ImageProcessing.mm */,
+			);
+			path = "image-processing";
+			sourceTree = "<group>";
+		};
+		4926BA881839859600808374 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				4926BA89183985C900808374 /* OpenCV+Utils.h */,
+				4926BA8A183985C900808374 /* OpenCV+Utils.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		4928077E1830C25500EE0BE6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +197,7 @@
 				492807A91830C25500EE0BE6 /* opencv-ios-toolsTests */,
 				492807891830C25500EE0BE6 /* Frameworks */,
 				492807881830C25500EE0BE6 /* Products */,
+				4B25F82881E24B058237C41D /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +213,12 @@
 		492807891830C25500EE0BE6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49D732FC1830C35A0037EE1C /* libc++.dylib */,
 				4928078A1830C25500EE0BE6 /* Foundation.framework */,
 				4928078C1830C25500EE0BE6 /* CoreGraphics.framework */,
 				4928078E1830C25500EE0BE6 /* UIKit.framework */,
 				492807A31830C25500EE0BE6 /* XCTest.framework */,
+				1E07F916EB39471A9D26364C /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,10 +226,14 @@
 		492807901830C25500EE0BE6 /* opencv-ios-tools */ = {
 			isa = PBXGroup;
 			children = (
+				49D732FE1830C3A70037EE1C /* opencv-ios-tools */,
 				492807991830C25500EE0BE6 /* OCVAppDelegate.h */,
 				4928079A1830C25500EE0BE6 /* OCVAppDelegate.m */,
 				4928079C1830C25500EE0BE6 /* Images.xcassets */,
 				492807911830C25500EE0BE6 /* Supporting Files */,
+				49D733031830C4250037EE1C /* OCVRootViewController.h */,
+				494DE54B1839928E0086DF15 /* OCVRootViewController.xib */,
+				49D733041830C4250037EE1C /* OCVRootViewController.m */,
 			);
 			path = "opencv-ios-tools";
 			sourceTree = "<group>";
@@ -118,6 +241,8 @@
 		492807911830C25500EE0BE6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				49D733101830C9C40037EE1C /* haarcascades */,
+				49D7330C1830C89E0037EE1C /* sample-images */,
 				492807921830C25500EE0BE6 /* opencv-ios-tools-Info.plist */,
 				492807931830C25500EE0BE6 /* InfoPlist.strings */,
 				492807961830C25500EE0BE6 /* main.m */,
@@ -144,6 +269,67 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		49D732FE1830C3A70037EE1C /* opencv-ios-tools */ = {
+			isa = PBXGroup;
+			children = (
+				4926BA7B18385E5D00808374 /* image-processing */,
+				49D733071830C5730037EE1C /* object-detection */,
+				4926BA881839859600808374 /* utils */,
+				49D732FF1830C3BF0037EE1C /* OpenCV.h */,
+				49D733001830C3BF0037EE1C /* OpenCV.mm */,
+			);
+			path = "opencv-ios-tools";
+			sourceTree = "<group>";
+		};
+		49D733071830C5730037EE1C /* object-detection */ = {
+			isa = PBXGroup;
+			children = (
+				4926BA8018393B8700808374 /* Classifier.h */,
+				4926BA8118393B8700808374 /* Classifier.mm */,
+				49D733081830C5830037EE1C /* ObjectDetector.h */,
+				49D733091830C5830037EE1C /* ObjectDetector.mm */,
+				4926BA8418394A9600808374 /* FaceDetector.h */,
+				4926BA8518394A9600808374 /* FaceDetector.mm */,
+			);
+			path = "object-detection";
+			sourceTree = "<group>";
+		};
+		49D7330C1830C89E0037EE1C /* sample-images */ = {
+			isa = PBXGroup;
+			children = (
+				49D7330D1830C8A70037EE1C /* lena.jpg */,
+			);
+			name = "sample-images";
+			path = "opencv-ios-tools/sample-images";
+			sourceTree = "<group>";
+		};
+		49D733101830C9C40037EE1C /* haarcascades */ = {
+			isa = PBXGroup;
+			children = (
+				49D733111830C9C40037EE1C /* haarcascade_eye.xml */,
+				49D733121830C9C40037EE1C /* haarcascade_eye_tree_eyeglasses.xml */,
+				49D733131830C9C40037EE1C /* haarcascade_frontalface_alt.xml */,
+				49D733141830C9C40037EE1C /* haarcascade_frontalface_alt2.xml */,
+				49D733151830C9C40037EE1C /* haarcascade_frontalface_alt_tree.xml */,
+				49D733161830C9C40037EE1C /* haarcascade_frontalface_default.xml */,
+				49D733171830C9C40037EE1C /* haarcascade_fullbody.xml */,
+				49D733181830C9C40037EE1C /* haarcascade_lefteye_2splits.xml */,
+				49D733191830C9C40037EE1C /* haarcascade_lowerbody.xml */,
+				49D7331A1830C9C40037EE1C /* haarcascade_mcs_eyepair_big.xml */,
+				49D7331B1830C9C40037EE1C /* haarcascade_mcs_eyepair_small.xml */,
+				49D7331C1830C9C40037EE1C /* haarcascade_mcs_lefteye.xml */,
+				49D7331D1830C9C40037EE1C /* haarcascade_mcs_mouth.xml */,
+				49D7331E1830C9C40037EE1C /* haarcascade_mcs_nose.xml */,
+				49D7331F1830C9C40037EE1C /* haarcascade_mcs_righteye.xml */,
+				49D733201830C9C40037EE1C /* haarcascade_mcs_upperbody.xml */,
+				49D733211830C9C40037EE1C /* haarcascade_profileface.xml */,
+				49D733221830C9C40037EE1C /* haarcascade_righteye_2splits.xml */,
+				49D733231830C9C40037EE1C /* haarcascade_upperbody.xml */,
+			);
+			name = haarcascades;
+			path = "opencv-ios-tools/haarcascades";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +337,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 492807B31830C25500EE0BE6 /* Build configuration list for PBXNativeTarget "opencv-ios-tools" */;
 			buildPhases = (
+				2C16318242784C80B2A0637C /* Check Pods Manifest.lock */,
 				492807831830C25500EE0BE6 /* Sources */,
 				492807841830C25500EE0BE6 /* Frameworks */,
 				492807851830C25500EE0BE6 /* Resources */,
+				AE8C69FF89D74723BDE0DBE5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,7 +408,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D733261830C9C40037EE1C /* haarcascade_eye_tree_eyeglasses.xml in Resources */,
+				49D733441830C9C40037EE1C /* haarcascade_profileface.xml in Resources */,
+				49D7332E1830C9C40037EE1C /* haarcascade_frontalface_default.xml in Resources */,
+				49D733381830C9C40037EE1C /* haarcascade_mcs_eyepair_small.xml in Resources */,
+				49D733401830C9C40037EE1C /* haarcascade_mcs_righteye.xml in Resources */,
+				49D733321830C9C40037EE1C /* haarcascade_lefteye_2splits.xml in Resources */,
+				49D7332A1830C9C40037EE1C /* haarcascade_frontalface_alt2.xml in Resources */,
+				49D733241830C9C40037EE1C /* haarcascade_eye.xml in Resources */,
+				49D733461830C9C40037EE1C /* haarcascade_righteye_2splits.xml in Resources */,
+				49D7333C1830C9C40037EE1C /* haarcascade_mcs_mouth.xml in Resources */,
 				492807951830C25500EE0BE6 /* InfoPlist.strings in Resources */,
+				49D733481830C9C40037EE1C /* haarcascade_upperbody.xml in Resources */,
+				49D7330E1830C8A70037EE1C /* lena.jpg in Resources */,
+				49D733281830C9C40037EE1C /* haarcascade_frontalface_alt.xml in Resources */,
+				49D733301830C9C40037EE1C /* haarcascade_fullbody.xml in Resources */,
+				49D733361830C9C40037EE1C /* haarcascade_mcs_eyepair_big.xml in Resources */,
+				49D7333A1830C9C40037EE1C /* haarcascade_mcs_lefteye.xml in Resources */,
+				49D7332C1830C9C40037EE1C /* haarcascade_frontalface_alt_tree.xml in Resources */,
+				49D733341830C9C40037EE1C /* haarcascade_lowerbody.xml in Resources */,
+				494DE54C1839928E0086DF15 /* OCVRootViewController.xib in Resources */,
+				49D7333E1830C9C40037EE1C /* haarcascade_mcs_nose.xml in Resources */,
+				49D733421830C9C40037EE1C /* haarcascade_mcs_upperbody.xml in Resources */,
 				4928079D1830C25500EE0BE6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,18 +438,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D7332B1830C9C40037EE1C /* haarcascade_frontalface_alt2.xml in Resources */,
+				49D733431830C9C40037EE1C /* haarcascade_mcs_upperbody.xml in Resources */,
+				49D733471830C9C40037EE1C /* haarcascade_righteye_2splits.xml in Resources */,
+				49D733351830C9C40037EE1C /* haarcascade_lowerbody.xml in Resources */,
+				49D733491830C9C40037EE1C /* haarcascade_upperbody.xml in Resources */,
+				494DE54D1839928E0086DF15 /* OCVRootViewController.xib in Resources */,
+				49D733291830C9C40037EE1C /* haarcascade_frontalface_alt.xml in Resources */,
+				49D733371830C9C40037EE1C /* haarcascade_mcs_eyepair_big.xml in Resources */,
+				49D733311830C9C40037EE1C /* haarcascade_fullbody.xml in Resources */,
+				49D7333B1830C9C40037EE1C /* haarcascade_mcs_lefteye.xml in Resources */,
+				49D7332F1830C9C40037EE1C /* haarcascade_frontalface_default.xml in Resources */,
 				492807AE1830C25500EE0BE6 /* InfoPlist.strings in Resources */,
+				49D733251830C9C40037EE1C /* haarcascade_eye.xml in Resources */,
+				49D7333D1830C9C40037EE1C /* haarcascade_mcs_mouth.xml in Resources */,
+				49D733411830C9C40037EE1C /* haarcascade_mcs_righteye.xml in Resources */,
+				49D7330F1830C8A70037EE1C /* lena.jpg in Resources */,
+				49D733271830C9C40037EE1C /* haarcascade_eye_tree_eyeglasses.xml in Resources */,
+				49D7332D1830C9C40037EE1C /* haarcascade_frontalface_alt_tree.xml in Resources */,
+				49D733451830C9C40037EE1C /* haarcascade_profileface.xml in Resources */,
+				49D7333F1830C9C40037EE1C /* haarcascade_mcs_nose.xml in Resources */,
+				49D733391830C9C40037EE1C /* haarcascade_mcs_eyepair_small.xml in Resources */,
+				49D733331830C9C40037EE1C /* haarcascade_lefteye_2splits.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C16318242784C80B2A0637C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE8C69FF89D74723BDE0DBE5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		492807831830C25500EE0BE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D7330A1830C5830037EE1C /* ObjectDetector.mm in Sources */,
 				492807971830C25500EE0BE6 /* main.m in Sources */,
+				4926BA8618394A9600808374 /* FaceDetector.mm in Sources */,
+				4926BA8B183985C900808374 /* OpenCV+Utils.m in Sources */,
+				49D733051830C4250037EE1C /* OCVRootViewController.m in Sources */,
+				49D733011830C3BF0037EE1C /* OpenCV.mm in Sources */,
+				4926BA8218393B8700808374 /* Classifier.mm in Sources */,
+				4926BA7E18385E8100808374 /* ImageProcessing.mm in Sources */,
 				4928079B1830C25500EE0BE6 /* OCVAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,7 +519,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4926BA8C183985C900808374 /* OpenCV+Utils.m in Sources */,
+				4926BA8718394A9600808374 /* FaceDetector.mm in Sources */,
+				49D733021830C3BF0037EE1C /* OpenCV.mm in Sources */,
+				4926BA7F18385E8100808374 /* ImageProcessing.mm in Sources */,
+				4926BA8318393B8700808374 /* Classifier.mm in Sources */,
 				492807B01830C25500EE0BE6 /* opencv_ios_toolsTests.m in Sources */,
+				49D7330B1830C5830037EE1C /* ObjectDetector.mm in Sources */,
+				49D733061830C4250037EE1C /* OCVRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +636,7 @@
 		};
 		492807B41830C25500EE0BE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B25F82881E24B058237C41D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -372,6 +650,7 @@
 		};
 		492807B51830C25500EE0BE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B25F82881E24B058237C41D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -444,6 +723,7 @@
 				492807B51830C25500EE0BE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		492807B61830C25500EE0BE6 /* Build configuration list for PBXNativeTarget "opencv-ios-toolsTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +732,7 @@
 				492807B81830C25500EE0BE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
